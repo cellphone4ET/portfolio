@@ -1,0 +1,51 @@
+body {
+  font-family: "Chivo", sans-serif;
+}
+
+.vertical-line-div {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  border-right: 1px solid black;
+  background-color: blue;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.horizontal-line-div {
+  border: 1px solid black;
+  width: 100%;
+  height: 3px;
+  background-color: grey;
+}
+
+header {
+  margin-left: 15%;
+  margin-top: 150px;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: -10em;
+  color: #e7df32;
+  letter-spacing: -9px;
+}
+
+.menu-links {
+  margin-top: 100px;
+  margin-left: 15.5%;
+  margin-bottom: 400px;
+}
+
+.link {
+  margin: 0px;
+  letter-spacing: -1px;
+}
+
+.directory {
+  margin-left: 20%;
+  margin-top: 75px;
+  letter-spacing: -1px;
+}
