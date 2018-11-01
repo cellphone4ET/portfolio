@@ -14,21 +14,52 @@
   <body>
 
     <!--vertical lines -->
+
     <div class="vertical-line-div"></div>
-    <header>ERICA GARCIA</header>
-    <div class="horizontal-line-div"></div>
-    <div class="menu-links">
-      <p class="link">{01} ABOUT</p>
-      <p class="link">{02} PORTFOLIO</p>
-      <p class="link">{03} CONTACT</p>
-    </div>
-    <div class="horizontal-line-div"></div>
-    <p class="directory">{01} ABOUT</p>
-    <img src="hand.jpg" alt="hand in sand" class="hand">
-    <div class="horizontal-line-div"></div>
-    <p class="directory">{02} PORTFOLIO</p>
-    <div class="horizontal-line-div"></div>
-    <p class="directory">{03} CONTACT</p>
+
+    <section>
+      <header>ERICA GARCIA</header>
+      <div class="first-horizontal-line-div"></div>
+      <div class="menu-links">
+        <a href="#about" class="page-link">{01} ABOUT</a>
+        <a href="#portfolio" class="page-link">{02} PORTFOLIO</a>
+        <a href="#contact" class="page-link">{03} CONTACT</a>
+      </div>
+    </section>
+
+    <div class="horizontal-line-div" id="about" ></div>
+
+    <section>
+      <p class="directory">{01} ABOUT</p>
+      <!-- <img src="hand.jpg" alt="hand in sand" class="hand"> -->
+    </section>
+
+    <div class="horizontal-line-div" id="portfolio"></div>
+
+    <section>
+      <p class="directory">{02} PORTFOLIO</p>
+    </section>
+
+    <div class="horizontal-line-div" id="contact"></div>
+
+    <section>
+      <p class="directory">{03} CONTACT</p>
+      <div class="contact-links">
+        <div class="contact">
+          <a href="mailto:ericagarciajohnson@gmail.com?Subject=Hey Erica! Let's Chat" target="_top">EMAIL</a>
+        </div>
+        <div class="contact">
+          <a class="contact-link" href="https://www.linkedin.com/in/ericagarciajohnson">LINKEDIN</a>
+        </div>
+        <div class="contact">
+          <a  class="contact-link" href="https://github.com/cellphone4ET">GITHUB</a>
+        </div>
+        <div class="contact">
+          <a class="contact-link" href="https://www.goodreads.com/cellphone4ET">GOODREADS</a>
+        </div>
+      </div>
+    </section>
+    <!-- <footer class="footer">© 2018 | ERICA GARCIA</footer> -->
 
 
   </body>
