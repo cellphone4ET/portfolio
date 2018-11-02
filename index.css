@@ -96,6 +96,14 @@ header {
   object-fit: contain;
   width: 100%;
   margin-right: 40px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.device-shot:hover {
+  cursor: crosshair;
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
 }
 
 .device-shot:last-child {
@@ -124,7 +132,16 @@ header {
 }
 
 .app-links {
+  display: inline-block;
   margin-top: 10px;
+  color: blue;
+}
+
+.app-links:hover {
+  text-decoration: line-through;
+}
+
+.app-link-a-href {
   color: blue;
 }
 
