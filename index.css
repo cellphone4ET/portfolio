@@ -151,9 +151,10 @@ header {
 
 
 .hand {
-  width: 900px;
+  max-width: 90%;
+  height: auto;
   margin-top: 25px;
-  margin-left: 17%;
+  margin-left: 18%;
 }
 
 
@@ -283,6 +284,14 @@ a {
   .text-div {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .app-text{
+    font-size: 1em;
+  }
+
+  .app-links, .built-text {
+    font-size: .8em;
   }
 
   header {
