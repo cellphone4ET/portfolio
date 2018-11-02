@@ -149,13 +149,10 @@ header {
 .hand {
   width: 900px;
   margin-top: 25px;
+  margin-left: 17%;
 }
 
-.hand-div {
-  margin-left: 20%;
-  margin-right: 20px;
 
-}
 
 .contact {
   border-top: 1px solid black;
