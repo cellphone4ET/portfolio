@@ -30,7 +30,7 @@ h1 {
   font-style: italic;
   font-weight: bolder;
   letter-spacing: -5px;
-  color: #e7df32;
+  color: 	#CCCC00;
   font-size: 4.5em;
   height: 0.90;
 }
@@ -58,7 +58,7 @@ header {
   font-weight: bold;
   font-style: italic;
   line-height: -10em;
-  color: #e7df32;
+  color: 	#CCCC00;
   letter-spacing: -9px;
   height: 0.95em;
 }
@@ -133,12 +133,14 @@ header {
 .built-text{
   margin-top: 40px;
   margin-left: 70px;
+  font-size: 1.0em;
 }
 
 .app-links {
   display: inline-block;
   margin-top: 10px;
   color: blue;
+  font-size: 1.0em;
 }
 
 .app-links:hover {
@@ -151,7 +153,8 @@ header {
 
 
 .hand {
-  max-width: 90%;
+  display: block;
+  max-width: 80%;
   height: auto;
   margin-top: 25px;
   margin-left: 18%;
@@ -205,9 +208,9 @@ a {
   width: 100%;
 }
 
-@media only screen and (max-width:  960px) {
+
+@media only screen and (max-width:  1124px) {
   .hand {
-    width: 700px;
     margin-top: 50px;
     margin-left: 20%;
   }
@@ -272,13 +275,15 @@ a {
 
   h1 {
     margin-left: 18%;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-style: italic;
     font-weight: bolder;
-    letter-spacing: -2px;
+    letter-spacing: -4px;
     color: #e7df32;
     font-size: 3.0em;
     height: 0.90;
+    line-height: -12px;
   }
 
   .text-div {
@@ -287,17 +292,17 @@ a {
   }
 
   .app-text{
-    font-size: 1em;
-  }
-
-  .app-links, .built-text {
     font-size: .8em;
   }
 
+  .app-links, .built-text {
+    font-size: .7em;
+  }
+
   header {
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: -5px;
-    margin-top: 125px;
+    margin-top: 75px;
   }
 
   .page-link {
@@ -308,6 +313,7 @@ a {
 
   .menu-links {
     margin-top: 70px;
+    margin-bottom: 150px;
   }
 
   .hand {
