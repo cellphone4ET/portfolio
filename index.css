@@ -180,6 +180,12 @@ a {
 }
 
 @media only screen and (max-width:  960px) {
+  header {
+    font-size: 4.5em;
+    letter-spacing: -5px;
+    margin-top: 125px;
+  }
+
   .info-div {
     display: flex;
     flex-direction: column;
@@ -202,9 +208,31 @@ a {
   .built-text{
     margin-left: 0px;
   }
+
+  h1 {
+    margin-left: 18%;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: -3px;
+    color: #e7df32;
+    font-size: 4.0em;
+    height: 0.90;
+  }
 }
 
 @media only screen and (max-width: 640px) {
+  h1 {
+    margin-left: 18%;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    color: #e7df32;
+    font-size: 3.0em;
+    height: 0.90;
+  }
+
   .text-div {
     margin-left: 10px;
     margin-right: 10px;
