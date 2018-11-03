@@ -286,7 +286,6 @@ a {
 @media only screen and (max-width: 740px) {
   .footer {
     margin-left: 70%;
-
   }
 }
 
@@ -297,7 +296,8 @@ a {
   }
 
   .footer {
-    margin-left: 55%;
+    margin-left: 66%;
+    font-size: .8em;
   }
 
   .about-text-div {
@@ -377,10 +377,11 @@ a {
       margin-bottom: 150px;
     }
     .footer {
-      margin-left: 40%;
+      margin-left: 55%;
     }
 }
 
+/* THESE QUERIES ALSO DOUBLE FOR IPHONE X */
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
