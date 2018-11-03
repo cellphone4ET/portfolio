@@ -383,7 +383,6 @@ a {
     }
 }
 
-/* THESE QUERIES ALSO DOUBLE FOR IPHONE X */
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
@@ -392,11 +391,11 @@ a {
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .footer {
-      margin-left: 50%;
+      margin-left: 65%;
     }
     .menu-links {
       margin-top: 70px;
-      margin-bottom: 400px;
+      margin-bottom: 350px;
     }
     .contact:last-child {
       margin-bottom: 350px;
@@ -404,5 +403,27 @@ a {
     .about-text-div {
       margin-top: 75px;
       margin-bottom: 200px;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .menu-links {
+      margin-top: 70px;
+      margin-bottom: 460px;
+    }
+    .contact:last-child {
+      margin-bottom: 350px;
+    }
+    .about-text-div {
+      margin-top: 100px;
+      margin-bottom: 280px;
+    }
+    .footer {
+      margin-left: 65%;
     }
 }
