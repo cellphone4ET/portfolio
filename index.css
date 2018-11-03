@@ -243,15 +243,15 @@ a {
     margin-left: 0px;
   }
 
-.app-header {
-    margin-left: 18%;
-    margin-top: 50px;
-    font-style: italic;
-    font-weight: bolder;
-    letter-spacing: -3px;
-    font-size: 4.0em;
-    height: 0.90;
-  }
+  .app-header {
+      margin-left: 18%;
+      margin-top: 50px;
+      font-style: italic;
+      font-weight: bolder;
+      letter-spacing: -3px;
+      font-size: 4.0em;
+      height: 0.90;
+    }
 
   .footer {
     margin-left: 75%;
@@ -264,11 +264,12 @@ a {
     display: none;
   }
   .about-text-div {
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left: 30%;
     display: flex;
     text-align: right;
     margin-right: 20px;
+    margin-bottom: 50px;
   }
 
   .footer {
@@ -295,6 +296,7 @@ a {
 
   .about-text-div {
     font-size: .8em;
+
   }
 
   .app-header {
