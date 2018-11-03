@@ -30,7 +30,7 @@ h1 {
   font-style: italic;
   font-weight: bolder;
   letter-spacing: -5px;
-  color: 	#CCCC00;
+  color: 	#E7DF32;
   font-size: 4.5em;
   height: 0.90;
 }
@@ -58,7 +58,7 @@ header {
   font-weight: bold;
   font-style: italic;
   line-height: -10em;
-  color: 	#CCCC00;
+  color: 	#E7DF32;
   letter-spacing: -9px;
   height: 0.95em;
 }
@@ -200,14 +200,19 @@ a {
 }
 
 .footer {
+  display: flex;
   font-weight: bold;
   margin-bottom: 0.5px;
   letter-spacing: -1px;
   font-size: 1.1em;
-  margin-left: 85%;
-  width: 100%;
+  margin-left: 86%;
 }
 
+@media only screen and (max-width:  1200px) {
+  .footer {
+    margin-left: 80%;
+  }
+}
 
 @media only screen and (max-width:  1124px) {
   .hand {
@@ -250,11 +255,15 @@ a {
     font-style: italic;
     font-weight: bolder;
     letter-spacing: -3px;
-    color: #e7df32;
     font-size: 4.0em;
     height: 0.90;
   }
+
+  .footer {
+    margin-left: 75%;
+  }
 }
+
 
 @media only screen and (max-width: 800px) {
   .hand {
@@ -267,8 +276,24 @@ a {
     text-align: right;
     margin-right: 20px;
   }
+
+  .footer {
+    margin-left: 70%;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .footer {
+    margin-left: 70%;
+
+  }
 }
 @media only screen and (max-width: 640px) {
+  .footer {
+    margin-left: 55%;
+
+  }
+
   .about-text-div {
     font-size: .8em;
   }
@@ -280,7 +305,6 @@ a {
     font-style: italic;
     font-weight: bolder;
     letter-spacing: -4px;
-    color: #e7df32;
     font-size: 3.0em;
     height: 0.90;
     line-height: -12px;
