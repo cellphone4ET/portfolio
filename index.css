@@ -52,15 +52,16 @@ p {
 }
 
 header {
-  margin-left: 14.6%;
+  margin-left: 15%;
   margin-top: 150px;
-  font-size: 8em;
-  font-weight: bold;
-  font-style: italic;
+  font-size: 10em;
+  /* font-weight: bold;
+  font-style: italic; */
   line-height: -10em;
-  color: 	#E7DF32;
-  letter-spacing: -9px;
+  color: 	blue;
+  /* letter-spacing: -9px; */
   height: 0.95em;
+  font-family: 'Chela One', cursive;
 }
 
 .menu-links {
@@ -288,17 +289,22 @@ a {
 
   }
 }
+
 @media only screen and (max-width: 640px) {
+  .about-line-div {
+    margin-left: 0;
+    width: 100%;
+  }
+
   .footer {
     margin-left: 55%;
-
   }
 
   .about-text-div {
     font-size: .8em;
   }
 
-.app-header {
+  .app-header {
     margin-left: 18%;
     margin-top: 20px;
 
@@ -337,7 +343,6 @@ a {
 
   .menu-links {
     margin-top: 70px;
-    margin-bottom: 150px;
   }
 
   .hand {
