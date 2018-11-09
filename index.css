@@ -5,6 +5,11 @@ body {
 p {
   margin: 0;
 }
+
+.email:hover {
+  text-decoration: line-through;
+}
+
 .vertical-line-div {
   height: 100%;
   width: 15%;
